@@ -8,3 +8,6 @@ For this project, I apply the CRISP-DM process on the world happiness data from 
 
 - [Link to notebook](https://github.com/nguyenduchuyvn/my_nanodegrees-/blob/c9a383959a340d664b70cb70b8efd0a9cd3b9e7c/MyFirstProject/World_Happiness_Report_2015_2021_v2.ipynb)
 - [Link to Medium blog post](https://medium.com/@nguyenduchuyvn/hapiness-around-the-world-441b7b115eff)
+
+## Project 2: Disaster Response Pipelines
+In this project, I try to analyze disaster data to build a model for an API that classifies disaster messages. I've created a machine learning pipeline to categorize these events. The detail can be found in here. Finally, this project also has a web app where an emergency worker can input a new message and get classification results in several categories. [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject)
