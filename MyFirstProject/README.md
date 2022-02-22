@@ -8,7 +8,7 @@ I'm curious about the happiness of people around the world, that's why I discove
 - What is the relationship between other factors (Economy, Healthy, Social support, Freedom, Generosity, Corruption Perception)?
 
 
-## Requiremnts
+## Requirements
 This project should be run with these following libraries
 - numPy
 - pandas
