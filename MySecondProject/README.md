@@ -1,14 +1,12 @@
 # Disaster Response Pipelines
 
-
 ## Table of Contents
 
  * [Project Overview](#project-overview)
- * [Requiremnts](#requiremnts)
+ * [Requirements](#requirements)
  * [File Descriptions](#file-descriptions)
  * [Instructions To Run](#instructions-to-run)
  * [Acknowledgements](#acknowledgements)
-
 
 ## Project Overview
 In this project, I try to analyze disaster data to build a model for an API that classifies disaster messages. The dataset containing real messages that were sent during disaster events can be found [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/data). 
@@ -17,8 +15,7 @@ I've created a machine learning pipeline to categorize these events. The detail 
 
 Finally, this project also has a web app where an emergency worker can input a new message and get classification results in several categories
 
-
-## Requiremnts
+## Requirements
 This project should be run with these following libraries
 - numPy
 - pandas
