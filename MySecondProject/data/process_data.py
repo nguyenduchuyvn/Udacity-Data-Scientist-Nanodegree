@@ -37,7 +37,9 @@ def clean_data(df):
     
         # convert column from string to numeric
         categories[column] = categories[column].astype(int)
-        
+    
+    # Convert category values to just numbers 0 or 1
+    categories["related"] = categories["related"].apply(lambda x: 0 if x ==0 else 1)
     # drop the original categories column from `df`
     df = df.drop(columns = ["categories"])
     
@@ -51,7 +53,7 @@ def clean_data(df):
 
 def save_data(df, database_filename):
     engine = sqlalchemy.create_engine('sqlite:///'+ str(database_filename))
-    df.to_sql(str(database_filename), engine, index=False)
+    df.to_sql("disastermessages", engine, index=False,if_exists='replace')
     pass  
 
 
