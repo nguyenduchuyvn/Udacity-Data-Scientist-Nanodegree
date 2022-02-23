@@ -5,7 +5,7 @@ In this project, I try to analyze disaster data to build a model for an API that
 
 I've created a machine learning pipeline to categorize these events. The detail can be found in [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/models).
 
-Finally, this project also has developed a web app where an emergency worker can classify  a new message into several categories.
+Finally, this project also has developed a [web app](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/app) where an emergency worker can classify  a new message into several categories. 
 
 ## Table of Contents
 
