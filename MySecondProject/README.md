@@ -1,5 +1,12 @@
 # Disaster Response Pipelines
 
+## Project Overview
+In this project, I try to analyze disaster data to build a model for an API that classifies disaster messages. The dataset containing real messages that were sent during disaster events can be found [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/data). 
+
+I've created a machine learning pipeline to categorize these events. The detail can be found in [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/models).
+
+Finally, this project also has developed a web app where an emergency worker can classify  a new message into several categories.
+
 ## Table of Contents
 
  * [Project Overview](#project-overview)
@@ -7,14 +14,7 @@
  * [File Descriptions](#file-descriptions)
  * [Instructions To Run](#instructions-to-run)
  * [Acknowledgements](#acknowledgements)
-
-## Project Overview
-In this project, I try to analyze disaster data to build a model for an API that classifies disaster messages. The dataset containing real messages that were sent during disaster events can be found [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/data). 
-
-I've created a machine learning pipeline to categorize these events. The detail can be found in [here](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject/models).
-
-Finally, this project also has a web app where an emergency worker can input a new message and get classification results in several categories
-
+ 
 ## Requirements
 This project should be run with these following libraries
 - numPy
@@ -46,6 +46,7 @@ This project has `3 sub-repositories`:
 
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+        
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
