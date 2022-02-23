@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 
 from flask import Flask
 from flask import render_template, request, jsonify
-from plotly.graph_objs import Bar
+from plotly.graph_objs import Bar, Histogram
 from sklearn.externals import joblib
 from sqlalchemy import create_engine
 
@@ -42,32 +42,22 @@ def index():
     
     # extract data needed for visuals
     # TODO: Below is an example - modify to extract data for your own visuals
-    genre_counts = df.groupby('genre').count()['message']
-    genre_names = list(genre_counts.index)
-    
+
+    messages  = df.message.values
+    text_length = [ len(l.split(" ")) for l in messages ]
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
-    graphs = [
-        {
-            'data': [
-                Bar(
-                    x=genre_names,
-                    y=genre_counts
-                )
-            ],
 
-            'layout': {
-                'title': 'Distribution of Message Genres',
-                'yaxis': {
-                    'title': "Count"
-                },
-                'xaxis': {
-                    'title': "Genre"
-                }
-            }
-        }
-    ]
-    
+    graphs = [{
+                    "data": [Histogram(
+                               x = text_length)
+                            ],
+                    "layout": {
+                        "title": {"text": "A Distribution of message lengths overall"},
+                        'yaxis': { 'title': "Count"},
+                        'xaxis': { 'title': "message length"}}
+                 }]
+
     # encode plotly graphs in JSON
     ids = ["graph-{}".format(i) for i, _ in enumerate(graphs)]
     graphJSON = json.dumps(graphs, cls=plotly.utils.PlotlyJSONEncoder)
