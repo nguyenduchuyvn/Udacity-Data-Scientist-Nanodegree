@@ -8,11 +8,8 @@ Firstly, I explore the data for the project. Then, I build several recommendatio
 ## Table of Contents
 
  * [Project Overview](#project-overview)
-<!--  * [Requirements](#requirements) -->
  * [File Descriptions](#file-descriptions)
- * [Instructions To Run](#instructions-to-run)
  * [Acknowledgements](#acknowledgements)
- * 
 
 ## File Descriptions
 This project has:
