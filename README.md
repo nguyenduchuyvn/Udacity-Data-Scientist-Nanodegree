@@ -12,3 +12,10 @@ For this project, I apply the CRISP-DM process on the world happiness data from 
 ## Project 2: Disaster Response Pipelines
 In this project, I try to analyze disaster data to build a model for an API that classifies disaster messages. I've created a machine learning pipeline to categorize these events. The detail can be found in here. Finally, this project also has a web app where an emergency worker can input a new message and get classification results in several categories. 
 - [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MySecondProject)
+
+## Project 3: Recommendations with IBM
+
+In this project I try to analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles. 
+Firstly, I explore the data for the project. Then, I build several recommendations system such as: Rank Based Recommendations, User-User Based Collaborative Filtering
+
+- [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MyThirdProject)
