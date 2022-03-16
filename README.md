@@ -19,3 +19,8 @@ In this project I try to analyze the interactions that users have with articles 
 Firstly, I explore the data for the project. Then, I build several recommendations system such as: Rank Based Recommendations, User-User Based Collaborative Filtering
 
 - [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MyThirdProject)
+
+## Project 4: Sarcasm Detection with Machine learning
+In this project, we aim to answer the question whether we identify sarcastic sentences automatically using ML/DL technique ? How do these techniques apply in this case and their performance?
+
+- [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MyCapstoneProject)
