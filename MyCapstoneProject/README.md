@@ -47,7 +47,7 @@ In this dataset, each record consists of three attributes:
 = article_link: link to the original news article. Useful in collecting supplementary data
 
 ## Medium Blog Post
-The main findings of the code can be found at the Medium Blog post available [here](....)
+The main findings of the code can be found at the Medium Blog post available [here](https://medium.com/@nguyenduchuyvn/sarcasm-detection-with-machine-learning-92538da893ec)
 
 ## Acknowledgements
 - Thanks Udacity for great project 
