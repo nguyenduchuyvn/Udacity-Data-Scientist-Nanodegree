@@ -1,4 +1,4 @@
-# Identify sarcastic sentences with machine learning techniques
+# Sarcasm Detection with Machine learning
 
 ## Project Overview
 This project can be used as a complete guide to EDA and machine learning technique for sentence classification tasks accompanied with advice for practioners. It will cover:
