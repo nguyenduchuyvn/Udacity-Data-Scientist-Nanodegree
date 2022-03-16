@@ -24,3 +24,4 @@ Firstly, I explore the data for the project. Then, I build several recommendatio
 In this project, we aim to answer the question whether we identify sarcastic sentences automatically using ML/DL technique ? How do these techniques apply in this case and their performance?
 
 - [Link to project](https://github.com/nguyenduchuyvn/my_nanodegrees-/tree/main/MyCapstoneProject)
+- [Link to Medium blog post](https://medium.com/@nguyenduchuyvn/sarcasm-detection-with-machine-learning-92538da893ec)
